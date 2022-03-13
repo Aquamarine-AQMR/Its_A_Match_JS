@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/registerThreeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/register"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/registerThreePrompt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:text="@string/registerThreePrompt"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerThreeTitle" />
+
+    <TextView
+        android:id="@+id/r3Name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:text="@string/name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registerThreePrompt" />
+
+    <TextView
+        android:id="@+id/r3NameDisplay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r3Name" />
+
+    <TextView
+        android:id="@+id/r3PhoneNumber"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:text="@string/phone_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r3NameDisplay" />
+
+    <TextView
+        android:id="@+id/r3PhoneNumberDisplay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r3PhoneNumber" />
+
+    <TextView
+        android:id="@+id/r3Email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:text="@string/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r3PhoneNumberDisplay" />
+
+    <TextView
+        android:id="@+id/r3EmailDisplay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r3Email" />
+
+    <TextView
+        android:id="@+id/r3Username"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:text="@string/username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r3EmailDisplay" />
+
+    <TextView
+        android:id="@+id/r3UsernameDisplay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:text="TextView"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/r3Username" />
+
+    <Button
+        android:id="@+id/r3back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#E91E63"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/r3confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Confirm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">It\'s A Match</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_pending">Pending</string>
+    <string name="title_upcoming">Upcoming</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="app_name_display">It\'s A Match!</string>
+    <string name="forgot_pasword">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="title_activity_password_reset">PasswordReset</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_prompt">Please enter the following details for confirmation before requesting for your password reset email.</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="register">Register</string>
+    <string name="back">Back</string>
+    <string name="send_reset_email">Send Reset Email</string>
+    <string name="registerOnePrompt">Please enter your desired:</string>
+    <string name="r1_continue">Continue</string>
+    <string name="r1PasswordPromptInitial"><![CDATA[Note: \n Password must have at least: \n One special character(!\"#$%&\'()*+,-./:;<=>?@[]^_`{|}~),\n One uppercase character, \n One lowercase character, \n One number, and \n have an overall length of between 13 and 99 characters.]]></string>
+    <string name="registerTwoPrompt">Please enter your details:</string>
+    <string name="name">Name</string>
+    <string name="registerThreePrompt">Please confirm your details:</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="termsAndConditions">
+        <![CDATA[
+        <h1>WEBSITE TERMS AND CONDITIONS TEMPLATE<\h1>
+        <h2>AGREEMENT TO TERMS<\h2>
+        <p>These Terms and Conditions constitute a legally binding agreement made between you, whether personally or You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms of Use, which were created using Terms and Conditions Generator. If you do not agree with all of these Terms of Use, then you are expressly prohibited from using the Site and you must discontinue use immediately.<\p>
+        <p>Supplemental terms and conditions or documents that may be posted on the Site from time to time are hereby expressly incorporated herein by reference. We reserve the right, in our sole discretion, to make changes or modifications to these Terms and Conditions at any time and for any reason.<\p>
+        <p>We will alert you about any changes by updating the “Last updated” date of these Terms and Conditions, and you waive any right to receive specific notice of each such change. <\p>
+        <h2>INTELLECTUAL PROPERTY RIGHTS<\h2>
+        <p>Unless otherwise indicated, the Site is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site (collectively, the “Content”) and the trademarks, service marks, and logos contained therein (the “Marks”) are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws and various other intellectual property rights and unfair competition laws of the United <\p>
+        ]]>
+    </string>
+    <string name="agreement">I have agreed to the Terms and Conditions.</string>
+</resources>
